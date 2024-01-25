@@ -531,10 +531,10 @@ class InsightFaceLoader:
     CATEGORY = "ipadapter"
 
     def load_insight_face(self, provider):
-        try:
-            from insightface.app import FaceAnalysis
-        except ImportError as e:
-            raise Exception(e)
+       # try:
+       #     from insightface.app import FaceAnalysis
+      #  except ImportError as e:
+        #    raise Exception(e)
         
         from insightface.utils import face_align
         global insightface_face_align
