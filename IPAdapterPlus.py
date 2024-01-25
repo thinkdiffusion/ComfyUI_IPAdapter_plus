@@ -2,6 +2,7 @@ import torch
 import contextlib
 import os
 import math
+from insightface.app import FaceAnalysis
 
 import comfy.utils
 import comfy.model_management
